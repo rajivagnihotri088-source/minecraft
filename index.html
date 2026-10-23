@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Block World 3D</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="overlay">
+    <h1>BLOCK WORLD</h1>
+    <p>Apni 3D duniya mein aapka swagat hai!</p>
+    <button id="startBtn">PLAY GAME</button>
+    <p class="help">WASD: Move | Space: Jump | Mouse: Look</p>
+    <p class="help">Left Click: Break | Right Click: Place</p>
+  </div>
+
+  <div id="hud">
+    <div id="crosshair">+</div>
+    <div id="info">BLOCK WORLD 3D</div>
+    <div id="hotbar">
+      <button class="slot selected" data-block="grass">1<br>🟩</button>
+      <button class="slot" data-block="dirt">2<br>🟫</button>
+      <button class="slot" data-block="stone">3<br>⬜</button>
+      <button class="slot" data-block="wood">4<br>🪵</button>
+      <button class="slot" data-block="leaves">5<br>🌿</button>
+    </div>
+    <div id="message">WASD se chalo aur duniya explore karo</div>
+  </div>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
